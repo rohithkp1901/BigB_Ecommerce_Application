@@ -1,0 +1,272 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* home */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+#h-login {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  
+  
+  .intro {
+    padding: 10px;
+    padding-left: 70px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 5px;
+    color: rgb(155, 155, 152);
+    background-image: linear-gradient(to right, rgb(253, 255, 255), rgb(204, 191, 175), rgb(214, 205, 203), rgb(187, 178, 167), rgb(246, 245, 245));
+  }
+  
+  .intro h1 {
+    font-size: 140px;
+    background: linear-gradient(rgb(245, 91, 2),rgb(245, 91, 2),white,green);
+    background-clip: text;
+    color: transparent;
+}
+  .intro h3{
+    background: linear-gradient(to right,black,black,red,red);
+    background-clip: text;
+    color: transparent;
+  }
+  .intro 
+  p {
+    color: #000;
+  }
+  
+  .intro p {
+    font-size: 20px;
+  }
+  
+  #shopnow {
+    border-radius: 20px;
+  
+  }
+  
+  .psize {
+    font-size: 12px;
+    line-height: 5px;
+    padding-top: 10px;
+  }
+  
+  .card1 {
+    width: 420px;
+  
+  }
+  
+  .d-flex {
+    flex-wrap: wrap;
+  
+  }
+  
+  .deal {
+    color: red;
+    font-size: 15px;
+  }
+  
+  .customer-review {
+    width: 300px;
+    height: 250px;
+  }
+  
+  .h-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .newsletter {
+    height: 250px;
+  }
+  
+  .h-f-a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  body {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+      line-height: 1.4;
+  
+    }
+  
+    #h-img-1,
+    #h-img-2,
+    #h-img-3 {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 991px) {
+    .card1 {
+      width: 45%;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* product */
+  .p-dell {
+    line-height: 5px;
+  }
+  
+  #prod-addtocart {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+  }
+  
+  .thumbnail-selected {
+    border: 3px solid rgb(0, 170, 255);
+  }
+  
+  .prod-a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    body {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+  
+    .p-dell {
+      line-height: 15px;
+    }
+  }
+  
+  @media only screen and (max-width:1500px) {
+    .p-dell {
+      line-height: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .d-flex.justify-content-between.m-5 {
+      font-size: small;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .d-flex.justify-content-between.m-5 {
+      gap: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .d-flex.justify-content-between.m-5 {
+      gap: 5px;
+    }
+  }
+  
+  /* contact */
+  .cards {
+    width: 300px;
+  }
+  
+  #contact-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* cart */
+  .heading {
+    margin-left: 20px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  #continue-btn {
+    margin-left: 150px;
+    margin-top: 200px;
+  }
+  
+  #cart-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media only screen and (max-width:1500px) {
+    div {
+      line-height: 15px;
+    }
+  
+  }
+  
+  /* check out  */
+  
+  #checkout-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  @media only screen and (max-width:1500px) {
+    div {
+      line-height: 15px;
+    }
+  
+    .div-total {
+      margin-top: 20px;
+    }
+  }
+  
+  /* about us  */
+  .about-box {
+    height: 400px;
+  }
+  
+  #about-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+      line-height: 1.4;
+    }
+  
+    .d-flex .flex-column .gap-3 {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
+  /* shop */
+  #shop-sub {
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  Link{
+    text-decoration: none;
+  }
+  

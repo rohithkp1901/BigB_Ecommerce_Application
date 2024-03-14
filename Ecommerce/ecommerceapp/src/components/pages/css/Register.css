@@ -1,0 +1,129 @@
+/* all */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.r-body {
+  font-family: "Comic Sans MS", cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #faf9f9; /* Warna latar belakang abu-abu muda */
+  color: #333;
+}
+/* container and form */
+.r-container {
+  max-width: 700px;
+  width: 100%;
+  background: #7d7878;
+  padding:  30px;
+  border-radius: 5px;
+}
+.r-container .r-title {
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.r-title{
+    text-align: left;
+}
+.r-container .r-title::before {
+  content: "";
+  position: absolute;
+  height: 3.5px;
+  width: 30px;
+  background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+  left: 0;
+  bottom: 0;
+}
+
+.r-container form .r-user__details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+/* inside the form user details */
+.r-form .r-user__details .r-input__box {
+  width: calc(100% / 2 - 20px);
+  margin-bottom: 15px;
+}
+
+.r-user__details .r-input__box details {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+.r-user__details .r-input__box .r-input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--main-grey);
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.r-user__details .r-input__box input:focus,
+.r-user__details .r-input__box input:valid {
+  border-color: var(--main-purple);
+}
+
+
+/* submit button */
+.r-form .r-button {
+  height: 45px;
+  margin: 45px 0;
+}
+
+.r-form .r-button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: linear-gradient(135deg, var(--main-blue), var(--main-purple));
+  transition: all 03s ease;
+}
+
+.r-form .r-button input:hover {
+  background: linear-gradient(-135deg, var(--main-blue), var(--main-purple));
+}
+
+@media only screen and (max-width: 584px) {
+  .r-container {
+    max-width: 100%;
+  }
+
+  .r-form .r-user__details .r-input__box {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .r-form .r-gender__details .r-category {
+    width: 100%;
+  }
+
+  .r-container form .r-user__details {
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+
+  .r-user__details::-webkit-scrollbar {
+    width: 0;
+  }
+}
+.r-input::placeholder{
+  opacity: 0.2;
+}
+textarea::placeholder{
+  opacity: 0.2;
+}
+textarea{
+  border-radius: 5px;
+  padding:  10px;
+}
